@@ -365,11 +365,12 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 
-    h1, h2 {
+    h1, h2, a {
         margin: 0;
     }
     a {
-        top: 0%
+        top: 0%;
+        left: 95%;
     }
     h1 {
         color: #fff;
