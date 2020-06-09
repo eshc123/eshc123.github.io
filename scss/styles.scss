@@ -356,43 +356,6 @@ footer {
     overflow: hidden;
 }
 
-#lead-header {
-    position: absolute;
-    z-index: 12;
-    top: 0%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-    h1, h2, a {
-        margin: 0;
-    }
-
-    a {
-        color: #fff;
-        font-weight: 900;
-        font-size: 5em;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-    }
-
-    h1 {
-        color: #fff;
-        font-weight: 900;
-        font-size: 5em;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-    }
-
-    h2 {
-        color: lighten($base-color, 25%);
-        font-weight: 500;
-        font-size: 2.25em;
-        margin-bottom: 15px;
-    }
-}
 
 #lead-content {
     position: absolute;
@@ -405,7 +368,9 @@ footer {
     h1, h2 {
         margin: 0;
     }
-
+    a {
+        top: 0%
+    }
     h1 {
         color: #fff;
         font-weight: 900;
