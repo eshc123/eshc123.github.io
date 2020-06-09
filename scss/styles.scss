@@ -183,23 +183,7 @@ header {
             text-decoration: none;
         }
     }
-    p {
-        display: block;
-        color: $base-color;
-        padding: 10px;
-
-        &:hover {
-            color: $base-color-hover;
-            text-decoration: none;
-            background: #eee;
-            border-radius: 4px;
-        }
-
-        &:focus {
-            color: $base-color;
-            text-decoration: none;
-        }
-    }
+    
 
     &.active {
         display: block;
