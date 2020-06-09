@@ -355,7 +355,25 @@ footer {
     padding: 15px;
     overflow: hidden;
 }
+#lead-header {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 
+    a {
+        color: #fff;
+        font-weight: 900;
+        font-size: 1.75em;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        line-height: 0.9em;
+    }
+
+
+}
 
 #lead-content {
     position: absolute;
@@ -365,16 +383,11 @@ footer {
     transform: translate(-50%, -50%);
     text-align: center;
 
-    h1, h2, a {
+    h1, h2 {
         margin: 0;
     }
 
-    a {
-        position:absolute;
-        top:0;
-        font-size: 2em;
-        text-align: right;
-    }
+
     h1 {
         color: #fff;
         font-weight: 900;
