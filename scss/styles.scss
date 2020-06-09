@@ -368,9 +368,10 @@ footer {
     h1, h2, a {
         margin: 0;
     }
+
     a {
-        top: 0%;
-        left: 95%;
+
+        transform: translate(0%, 100%);
     }
     h1 {
         color: #fff;
