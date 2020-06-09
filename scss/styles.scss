@@ -370,8 +370,10 @@ footer {
     }
 
     a {
-
-        transform: translate(0%, 100%);
+        position:absolute;
+        top:0;
+        right:0;
+        font-size: 2em;
     }
     h1 {
         color: #fff;
