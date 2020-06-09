@@ -183,6 +183,23 @@ header {
             text-decoration: none;
         }
     }
+    p {
+        display: block;
+        color: $base-color;
+        padding: 10px;
+
+        &:hover {
+            color: $base-color-hover;
+            text-decoration: none;
+            background: #eee;
+            border-radius: 4px;
+        }
+
+        &:focus {
+            color: $base-color;
+            text-decoration: none;
+        }
+    }
 
     &.active {
         display: block;
@@ -355,25 +372,7 @@ footer {
     padding: 15px;
     overflow: hidden;
 }
-#lead-header {
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
 
-    a {
-        color: #fff;
-        font-weight: 900;
-        font-size: 1.75em;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-        line-height: 0.9em;
-    }
-
-
-}
 
 #lead-content {
     position: absolute;
