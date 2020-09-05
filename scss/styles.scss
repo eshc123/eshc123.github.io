@@ -654,6 +654,8 @@ footer {
 }
 
 .project-image {
+    position: absolute;
+    top: 50%;
     float: left;
     width: 300px;
     height: auto;
